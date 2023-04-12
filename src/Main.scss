@@ -25,3 +25,17 @@ $white-pale: rgba(255, 255, 255, 0.2);
   background-color: $white-pale;
   margin: 0 auto;
 }
+
+.search-input {
+  width: 100%;
+  margin: 1rem 0;
+  @include flexCenter();
+
+  .search {
+    width: 300px;
+    border-radius: 40px;
+    padding: 0.5rem;
+    border: 0;
+    outline: none;
+  }
+}
