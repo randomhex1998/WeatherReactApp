@@ -1,9 +1,10 @@
 import React from "react";
+import Main from "./components/Main";
 
 const App = () => {
   return (
     <>
-        <h1>Rayan</h1>
+      <Main />
     </>
   );
 };
