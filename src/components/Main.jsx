@@ -41,7 +41,7 @@ const Main = () => {
         <div className="weth-title-area">
           <p className="weth-title">{data.name}</p>
           <h2 className="weth-temp">
-            {data.main ? ((data.main.temp - 32) / 1.8).toFixed(1) + "°C" : null}
+            {data.main ? ((data.main.temp - 32) / 1.8).toFixed(0) + "°C" : null}
           </h2>
         </div>
         <div className="bottom-box-area">
