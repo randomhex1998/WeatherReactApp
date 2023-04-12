@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import sunSet from "../asset/sunset.jpg";
+import sunSet from "../asset/src/sunset.jpg";
 
 const Main = () => {
   const [data, setData] = useState({});
