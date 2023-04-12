@@ -23,7 +23,7 @@ $white-pale: rgba(255, 255, 255, 0.2);
   position: relative;
   width: 35%;
   height: 95vh;
-  background-color: $white-pale;
+  // background-color: $black-pale;
   margin: 0 auto;
 }
 
@@ -52,5 +52,29 @@ $white-pale: rgba(255, 255, 255, 0.2);
   .weth-temp {
     font-size: 7rem;
     color: $smoke-white;
+  }
+}
+
+.bottom-box-area {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  background-color: $white-pale;
+  border-radius: 5px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  .bottom-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white-color;
+    h4{
+      font-size: 1.8rem;
+    }
+    padding: 1.2rem;
+    font-weight: 400;
   }
 }
