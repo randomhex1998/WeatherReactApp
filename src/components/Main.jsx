@@ -40,19 +40,19 @@ const Main = () => {
         </div>
         <div className="weth-title-area">
           <p className="weth-title">{data.name}</p>
-          <h2 className="weth-temp">15 F</h2>
+          <h2 className="weth-temp">{data.main ? data.main.temp : null}</h2>
         </div>
         <div className="bottom-box-area">
           <div className="bottom-box FeelsLike">
-            <h4>15</h4>
+            <h4>{data.main ? data.main.feels_like : null}</h4>
             <p>FeelsLike</p>
           </div>
           <div className="bottom-box Humidity">
-            <h4>15</h4>
+            <h4>{data.main ? data.main.humidity : null}</h4>
             <p>Humidity</p>
           </div>
           <div className="bottom-box WindSpeed">
-            <h4>6 MPH</h4>
+            <h4>{data.wind ? data.wind.speed : null}</h4>
             <p>WindSpeed</p>
           </div>
         </div>
