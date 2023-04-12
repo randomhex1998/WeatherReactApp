@@ -1,8 +1,14 @@
 $smoke-white: #f8f8f8;
 $white-color: #fff;
 $black-color: #000;
-$black-pale: rgba(0,0,0,0.2);
-$white-pale: rgba(255,255,255,0.2);
+$black-pale: rgba(0, 0, 0, 0.2);
+$white-pale: rgba(255, 255, 255, 0.2);
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-area {
   width: 100%;
@@ -10,4 +16,12 @@ $white-pale: rgba(255,255,255,0.2);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include flexCenter();
+}
+
+.container {
+  width: 45%;
+  height: 95vh;
+  background-color: crimson;
+  margin: 0 auto;
 }
