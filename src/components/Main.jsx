@@ -23,7 +23,7 @@ const Main = () => {
       style={{
         backgroundImage: `${
           data.name == location
-            ? `url(${require(`../asset/${location}.jpg`)}) `
+            ? `url(${require(`../asset/src/${location}.jpg`)}) `
             : `url(${sunSet})`
         }`,
       }}>
