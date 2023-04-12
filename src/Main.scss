@@ -22,6 +22,6 @@ $white-pale: rgba(255, 255, 255, 0.2);
 .container {
   width: 45%;
   height: 95vh;
-  background-color: crimson;
+  background-color: $white-pale;
   margin: 0 auto;
 }
